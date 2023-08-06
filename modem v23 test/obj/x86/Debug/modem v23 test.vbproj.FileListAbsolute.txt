@@ -7,3 +7,12 @@ d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 t
 d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\obj\x86\Debug\modem v23 test.exe
 d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\obj\x86\Debug\modem v23 test.xml
 d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\obj\x86\Debug\modem v23 test.pdb
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Debug\modem v23 test.exe
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Debug\modem v23 test.xml
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Debug\modem v23 test.pdb
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\bin\Debug\modem v23 test.exe
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\bin\Debug\modem v23 test.pdb
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\bin\Debug\modem v23 test.xml
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Debug\modem v23 test.vbproj.GenerateResource.Cache

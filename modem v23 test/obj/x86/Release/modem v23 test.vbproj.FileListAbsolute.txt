@@ -1,0 +1,9 @@
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\bin\Release\modem v23 test.exe
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\bin\Release\modem v23 test.pdb
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\bin\Release\modem v23 test.xml
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Release\WindowsApplication1.Form1.resources
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Release\WindowsApplication1.Resources.resources
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Release\modem v23 test.vbproj.GenerateResource.Cache
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Release\modem v23 test.exe
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Release\modem v23 test.xml
+D:\_User\Turion\Documents\Visual Studio 2010\Projects\v23-VBsoftmodem\modem v23 test\obj\x86\Release\modem v23 test.pdb

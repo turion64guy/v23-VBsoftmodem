@@ -95,7 +95,7 @@ Partial Class Form1
         'repeat_times_user
         '
         Me.repeat_times_user.Location = New System.Drawing.Point(85, 77)
-        Me.repeat_times_user.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.repeat_times_user.Maximum = New Decimal(New Integer() {32768, 0, 0, 0})
         Me.repeat_times_user.Name = "repeat_times_user"
         Me.repeat_times_user.Size = New System.Drawing.Size(120, 20)
         Me.repeat_times_user.TabIndex = 5
@@ -133,9 +133,9 @@ Partial Class Form1
         Me.random_data_switch_user.AutoSize = True
         Me.random_data_switch_user.Location = New System.Drawing.Point(22, 116)
         Me.random_data_switch_user.Name = "random_data_switch_user"
-        Me.random_data_switch_user.Size = New System.Drawing.Size(110, 17)
+        Me.random_data_switch_user.Size = New System.Drawing.Size(89, 17)
         Me.random_data_switch_user.TabIndex = 10
-        Me.random_data_switch_user.Text = "255 random bytes"
+        Me.random_data_switch_user.Text = "random bytes"
         Me.random_data_switch_user.UseVisualStyleBackColor = True
         '
         'Form1

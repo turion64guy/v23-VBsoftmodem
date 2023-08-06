@@ -5,13 +5,10 @@ Imports System.Media
 Public Class Form1
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Dim Data(255) As Byte
+        Dim Data(32768) As Byte
         For i As Integer = 0 To repeat_times_user.Value
             If random_data_switch_user.Checked Then
                 Data(i) = CInt(Int((255 * Rnd()) + 1))
-                repeat_times_user.Value = 255
-            Else
-                Data(i) = data_user.Value
             End If
         Next
         SendByte(Data, speed_user.Value, repeat_times_user.Value)
@@ -21,7 +18,7 @@ Public Class Form1
     Public Shared Sub SendByte(ByRef Data() As Byte, ByVal Speed As Integer, ByVal Len As Integer)
         ' Now keeps track of phase to get better transitions between frequency changes (and presumably better snr)
         Dim Symbols As Array = New Integer() {1700, 1300, 2100} ' index 0 for idle freq
-        Dim Frequency As Integer = Symbols(1)
+        Dim Frequency As Integer = Symbols(0)
         Dim Symbol_total = 8 * Len
         Dim Symbol_duration As Single = 100 / Speed ' (1 / Speed) * 100
         Dim Duration As Single = Symbol_duration * Symbol_total
