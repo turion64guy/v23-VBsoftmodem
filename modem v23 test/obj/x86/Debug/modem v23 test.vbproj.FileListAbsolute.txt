@@ -1,0 +1,9 @@
+d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\bin\Debug\modem v23 test.exe
+d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\bin\Debug\modem v23 test.pdb
+d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\bin\Debug\modem v23 test.xml
+d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\obj\x86\Debug\WindowsApplication1.Form1.resources
+d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\obj\x86\Debug\WindowsApplication1.Resources.resources
+d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\obj\x86\Debug\modem v23 test.vbproj.GenerateResource.Cache
+d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\obj\x86\Debug\modem v23 test.exe
+d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\obj\x86\Debug\modem v23 test.xml
+d:\_user\turion\documents\visual studio 2010\Projects\modem v23 test\modem v23 test\obj\x86\Debug\modem v23 test.pdb
