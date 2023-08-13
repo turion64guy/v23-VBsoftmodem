@@ -1,5 +1,4 @@
-v23-VBsoftmodem  
-#VBnet V23 Softmodem  
+#VBnet V23 Softmodem
 Experimental V23 softmodem written in Visual Basic .net.  
 
 The end goal is to write a software modem for Minitel terminals.  
