@@ -9,6 +9,8 @@ Public Class Form1
         For i As Integer = 0 To repeat_times_user.Value
             If random_data_switch_user.Checked Then
                 Data(i) = CInt(Int((255 * Rnd()) + 1))
+            Else
+                Data(i) = data_user.Value
             End If
         Next
         SendByte(Data, speed_user.Value, repeat_times_user.Value)
@@ -23,7 +25,7 @@ Public Class Form1
         Dim Symbol_duration As Single = 100 / Speed ' (1 / Speed) * 100
         Dim Duration As Single = Symbol_duration * Symbol_total
         Dim A As Double = ((System.Math.Pow(2, 15))) - 1    ' because 16 bits signed samples : -32768~32767. 2^15 = 32768. -1 for 32767 in positive halfcycle
-        Dim Samples_per_symbol As Integer = 441 * Symbol_duration / 10
+        Dim Samples_per_symbol As Integer = 441 * Symbol_duration ' no divide by 10 because we're using Hz and seconds as units
         'Dim Samples As Integer = 441 * Duration / 10
         Dim Samples As Integer = Samples_per_symbol * Symbol_total
         Dim Bytes As Integer = Samples * 4
@@ -42,7 +44,7 @@ Public Class Form1
                 Dim bitcounter As Integer = 0
                 For T As Integer = 0 To Samples - 1
                     'For Ts As Integer = 0 To Samples_per_symbol * 1
-                    If (T Mod Samples_per_symbol) = 0 Then  ' if it's time to change symbol (? i think)
+                    If (T Mod Samples_per_symbol) = 0 Then  ' if it's time to change symbol (will be 0 when sample counter is divisble by number of sample per symbol)
                         'MessageBox.Show(T)
                         Dim bit = (Data(Math.Floor(bitcounter / 8)) >> bitcounter) And 1
                         Frequency = Symbols(bit + 1)
@@ -75,7 +77,7 @@ Public Class Form1
         Dim Symbol_duration As Single = (1 / Speed) * 100
         Dim Duration As Single = Symbol_duration * Symbol_total
         Dim A As Double = ((System.Math.Pow(2, 15))) - 1
-        Dim Samples_per_symbol As Integer = 441 * Symbol_duration / 10
+        Dim Samples_per_symbol As Integer = 441 * Symbol_duration ' no divide by 10 because we're not using ms
         'Dim Samples As Integer = 441 * Duration / 10
         Dim Samples As Integer = Samples_per_symbol * Symbol_total
         Dim Bytes As Integer = Samples * 4
